@@ -4,19 +4,9 @@ stateless4scala is a port of [stateless4j](https://github.com/oxo42/stateless4j)
 
 stateless4j is a port of [stateless](https://github.com/nblumhardt/stateless) for java
 
-Maven
-=====
-```xml
-<dependency>
-    <groupId>stateless4scala</groupId>
-    <artifactId>stateless4scala</artifactId>
-    <version>1.0.0</version>
-</dependency>
-```
-
 Introduction
 ============
-Create state machines and lightweight state machine-based workflows __directly in java code__.
+Create state machines and lightweight state machine-based workflows __directly in scala code__.
 
 ```scala
 val phoneCallConfig = new StateMachineConfig[State, Trigger]
